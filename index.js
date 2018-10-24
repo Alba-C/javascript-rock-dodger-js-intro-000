@@ -142,6 +142,7 @@ function endGame() {
 
 function moveDodger(e) {
   // implement me!
+  console.log(e.which)
   /**
    * This function should call `moveDodgerLeft()`
    * if the left arrow is pressed and `moveDodgerRight()`
@@ -164,6 +165,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
+  
   // implement me!
   /*
    * This function should move DODGER to the left
